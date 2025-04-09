@@ -11,6 +11,8 @@ public class Main {
         Klient klient2 = new Klient("Anna", "Nowak", "anna@example.com");
         system.dodajKlienta(klient1);
         system.dodajKlienta(klient2);
+        koncert.setDostępneMiejsca(100);
+        teatr.setDostępneMiejsca(100);
 // Dokonaj rezerwacji - przekazanie obiektu Klient i Wydarzenie
         system.dokonajRezerwacji(klient1, koncert);
         system.dokonajRezerwacji(klient1, teatr);
